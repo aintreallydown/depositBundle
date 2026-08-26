@@ -1,6 +1,0 @@
-    
-bundle:
-  property:
-    deposit:
-      h1: 'Quel est le montant du dépôt de garantie ?'
-      placeholder: 'Montant du dépôt de garantie'
