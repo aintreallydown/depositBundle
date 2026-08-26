@@ -4,14 +4,14 @@
 
 {% block main %}
     
-    <h1>{{ 'bundle.property.deposit.h1'|trans }}</h1>
+    <h1>{{ 'bundle.property.deposit.h1'|trans({}, 'DepositBundle') }}</h1>
 
     <zb-input
         name="{{ field_name(form.deposit) }}" 
         value="{{ field_value(form.deposit) }}"
         type="number"
         unit="{{ country.currency.symbol }}"
-        placeholder='{{ "bundle.property.deposit.placeholder"|trans }}'
+        placeholder='{{ "bundle.property.deposit.placeholder"|trans({}, 'DepositBundle') }}'
         max="{{max}}"
         required
     ></zb-input>
