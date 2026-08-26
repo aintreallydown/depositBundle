@@ -1,0 +1,5 @@
+bundle:
+  property:
+    deposit:
+      h1: 'What is the amount of the security deposit ?'
+      placeholder: 'Security deposit amount'
