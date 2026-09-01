@@ -24,5 +24,11 @@ class DepositExtension extends Extension implements PrependExtensionInterface
                 ],
             ],
         ]);
+        $container->prependExtensionConfig('twig', [
+            'paths' => [
+                __DIR__ . '/../../templates' => 'DepositBundle',
+            ],
+        ]);
     }
+     
 }
