@@ -3,8 +3,8 @@
 namespace aintreallydown\DepositBundle\Controller;
 
 use aintreallydown\DepositBundle\Form\PropertyFormType;
-use aintreallydown\DepositBundle\Security\Voter\PropertyVoter;
 use App\Entity\Property;
+use App\Security\Voter\PropertyVoter;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
